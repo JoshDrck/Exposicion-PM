@@ -60,8 +60,30 @@ hey();
 function hey() {
   console.log("Hola" + miNombre);
 }
+// Estructuras de control
 
+// Toma de decisiones
+// If
+if ("Juan" === "Juan") {
+  console.log("El resultado es verdadero")
+}
 // Switch
+
+switch ("1") {
+  case "1":
+    console.log("Usted ha seleccionado el número uno")
+    break;
+  case "2":
+
+    console.log("Usted ha seleccionado el número dos")
+    break
+  default:
+    break;
+}
+// Ternario
+
+console.log("1" === "1" ? "Usted ha seleccionado el número uno" : "Usted no ha seleccionado el número uno")
+
 
 // Bucles
 let numero = 10;
@@ -85,10 +107,25 @@ do {
   nombre--;
 } while (10 < 1);
 
-// Estructuras
-
-
 // objeto JSON
 
+let json = {
+  "nombre": "Juan",
+  "Edad": 20,
+  "Ciudad:": "Machala"
+}
+
+json = JSON.stringify(json)
+
+json = JSON.parse(json)
+
+console.log(json)
 
 // LocalStorage
+
+localStorage.setItem("Juan", JSON.stringify(
+  {
+    "nombre": "Juan",
+    "Edad": 20,
+    "Ciudad:": "Machala"
+  }));
