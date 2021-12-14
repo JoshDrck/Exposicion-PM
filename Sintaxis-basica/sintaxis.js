@@ -129,3 +129,31 @@ localStorage.setItem("Juan", JSON.stringify(
     "Edad": 20,
     "Ciudad:": "Machala"
   }));
+
+
+// Arrays
+
+var arrayExample = new Array();
+arrayExample.push("uno");
+arrayExample.push("dos");
+arrayExample.push("tres");
+
+
+var arrayExample2 = [
+  "Uno", "Dos", "Tres"
+]
+
+// Objeto
+
+/* {
+  nombre: 'Juan',
+  Edad: 20,
+  Ciudad: "Machala"
+} */
+
+let miObjeto = {
+  nombre: 'Juan',
+  Edad: 20,
+  Ciudad: "Machala"
+}
+
