@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./estilo.css" />
+    <link rel="stylesheet" href="./index.js" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <section>
+      <button
+        class="button-next"
+        id="button-back"
+        onclick="mostrarTabla()"
+        hidden
+      >
+        <i class="fa fa-angle-right"></i>
+      </button>
+      <form id="myFormulario" hidden>
+        <h2>FORMULARIO</h2>
+        <div>
+          <label for="">Nombre</label>
+          <input type="text" id="nombre" placeholder="Ingrese su nombre" required/>
+        </div>
+        <div>
+          <label for="">Apellido</label>
+          <input type="text" id="apellido" placeholder="Ingrese su Apellido" required/>
+        </div>
+        <div>
+          <label for="">Universidad</label>
+          <input type="text" id="universidad" placeholder="Ingrese su Universidad" required/>
+        </div>
+        <div>
+          <label for="">E-mail</label>
+          <input type="email" placeholder="Ingrese su E-mail" required/>
+        </div>
+        <div>
+          <label for="">Seleccionar genero:</label>
+          <select name="" id="sexo" required>
+            <option value="Null">Seleccionar</option>
+            <option value="Masculino">Hombre</option>
+            <option value="Femenino">Mujer</option>
+          </select>
+        </div>
+        <div class="buttons">
+          <button type="submit" onclick="listarArray()">Ingresar</button>
+          <button type="button" onclick="limpiarArray()">Cancelar</button>
+        </div>
+      </form>
+      <div class="tabla" id="tabla">
+        <button class="button-back" onclick="mostrarForm()">
+          <i class="fa fa-angle-left"></i>
+        </button>
+        <table class="datos" id="tablaDatos">
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Apellido</th>
+              <th>Universidad</th>
+              <th>E-Mail</th>
+              <th>Sexo</th>
+            </tr>
+          </thead>
+        </table>
+        <button class="button" onclick="mostrarTabla()"></button>
+      </div>
+    </section>
+  </body>
+<script src="./index.js"></script>
+</html>

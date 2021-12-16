@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/fifa2.jpg);
+    background-position: center;
+    background-size: contain;
+    font-family: sans-serif;
+    margin-top: 10px;
+   
+    
+}
+.registrar{
+    width: 300px;
+    background-color: rgb(red, green, blue);
+    margin: auto;
+    color: #fff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    margin-left: 720px;
+}
+.main{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 450px;
+    margin:auto;
+    margin-left: 720px;
+    margin-top: 15px;
+
+}
+form{
+    padding: 10px;
+}
+#name{
+    width: 100%;
+    height: 100px;
+}
+.nombre{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-size: 16px;
+}
+
+
+
+.input{
+    position: relative;
+    left: 150px;
+    top: -37px;
+    line-height: 40px;
+    width: 221px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 12px;
+    color: #555;
+}
+
+
+
+button{
+    background-color: #3baf9f;
+    display: block;
+    margin: 20px 0px 0px 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #366473;
+    padding: 14px 110px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+}
+button:hover{
+    background-color: #5390f5;
+}
+.seleccion{
+    position: relative;
+    padding: 0 22px;
+    font-size: 16px;
+    color: white;
+    left: -0.02px;
+}
+
+table {
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    border: 1px solid #fff;
+ }
+ th, td {
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #fff;
+    color:#fff;
+ }

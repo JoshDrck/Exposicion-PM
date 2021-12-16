@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(
+    -217deg,
+    rgb(148, 226, 226),
+    rgb(205, 245, 245) 100%
+  );
+}
+
+section {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: linear-gradient(
+    -217deg,
+    rgb(148, 226, 226),
+    rgba(173, 248, 248, 0.87) 0%
+  );
+  box-shadow: 8px 8px 10px 0 #3a3d3d;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 400px;
+  height: 400px;
+}
+
+form {
+  padding: 50px;
+  vertical-align: middle;
+  height: 75%;
+}
+
+form > div {
+  position: relative;
+  margin: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  padding-left: 5px;
+  text-align: center;
+  height: 15px;
+  border: 0;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+  outline: none;
+  font-size: 12px;
+  width: 162px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input:hover {
+  font-size: 13px;
+}
+
+input::placeholder {
+  color: rgb(59, 59, 59);
+}
+
+button {
+  width: 120px;
+  height: 30px;
+  border: 0;
+  border-radius: 10px;
+  background: linear-gradient(
+    150deg,
+    rgb(78, 207, 153) 50px,
+    rgb(99, 216, 196) 100%
+  );
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button:hover {
+  background: linear-gradient(150deg, rgb(99, 67, 67), rgb(156, 76, 156) 100%);
+  color: white;
+}
+
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+select {
+  width: 130px;
+  border: 0;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid;
+  font-size: 11px;
+  text-align: center;
+  -webkit-appearance: none;
+}
+
+select option {
+  background: rgba(173, 248, 248, 0.87);
+  outline: none;
+}
+
+th {
+  width: 79px;
+  height: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.buttons {
+  margin-top: 40px;
+}
+
+.button-back {
+  width: 40px;
+  border-bottom-right-radius: 0.1px;
+}
+
+.button-next {
+  width: 40px;
+  float: right;
+  border-bottom-left-radius: 0.1px;
+}
+.button-back,
+.button-next > i {
+  font-size: 24px;
+}
+.datos {
+  margin-top: 20px;
+  border: none;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#myFormulario div label{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* .select-sex-item > label {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  height: 24px;
+}
+
+.select-sex-item > label > input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+ Rounded sliders
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+ */
